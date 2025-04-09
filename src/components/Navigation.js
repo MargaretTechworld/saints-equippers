@@ -8,5 +8,5 @@ const Navigation = () => {
   )
 }
 
-export default navigation
+export default Navigation
 

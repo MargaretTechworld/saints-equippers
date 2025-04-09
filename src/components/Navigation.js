@@ -1,12 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-const Navigation = () => {
-  return (
-    <div>
-      <p>Hi Nav</p>
-    </div>
-  )
-}
+const Navigation = () => (
+  <div>
+    <p>Hi Nav</p>
+  </div>
+);
 
-export default Navigation
-
+export default Navigation;

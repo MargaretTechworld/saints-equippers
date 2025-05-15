@@ -1,0 +1,74 @@
+.dmenu-nav {
+  display: flex;
+  gap: 4%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.05rem; /* Default font size */
+  padding: 5px;
+  position: relative; /* For the active effect */
+}
+
+a:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Light background on hover */
+  border-radius: 4px; /* Rounded corners */
+}
+
+/* Active Effect */
+a.active {
+  background-color: white; /* Different background for active */
+  color: #0a3981; /* Change text color for active link */
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 767px) {
+  a {
+    font-size: 0.8rem; /* Smaller font size for mobile */
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 919px) {
+  .sub-nav {
+    width: 15%;
+  }
+
+  a {
+    font-size: 0.8rem; /* Consistent font size for this range */
+  }
+
+  .dmenu-nav {
+    gap: 3%;
+  }
+}
+
+@media screen and (min-width: 920px) and (max-width: 1112px) {
+  .sub-nav {
+    width: 20%;
+  }
+
+  a {
+    font-size: 0.6rem; /* Consistent font size */
+  }
+
+  .logo-p {
+    font-size: 0.6rem; /* Smaller logo text */
+  }
+
+  .dmenu-nav {
+    gap: 3%;
+  }
+}
+
+@media screen and (min-width: 921px) and (max-width: 1331px) {
+  a {
+    font-size: 0.6rem; /* Consistent font size */
+  }
+}

@@ -1,0 +1,82 @@
+body {
+  box-sizing: border-box;
+}
+
+.hero-slide {
+  position: relative;
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.text-content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 1.2rem;
+  padding: 4px 20px;
+  border-radius: 8px;
+}
+
+.description {
+  font-size: 1rem;
+  max-width: 80%;
+  padding: 5px 3px;
+  border-radius: 8px;
+}
+
+.know-christ-btn {
+  background-color: #fff;
+  color: #0a3981;
+  padding: 12px 28px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
+  margin-top: 10px;
+}
+
+.know-christ-btn:hover {
+  background-color: #0a3981;
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+@media screen and (min-width: 768px) {
+  .hero-slide {
+    height: 80vh;
+    object-fit: cover;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+}

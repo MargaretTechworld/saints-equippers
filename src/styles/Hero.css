@@ -1,6 +1,7 @@
-body{
+body {
   box-sizing: border-box;
 }
+
 .hero-slide {
   position: relative;
   height: 50vh;
@@ -41,13 +42,14 @@ body{
 }
 
 .description {
-  font-size: 1.0rem;
+  font-size: 1rem;
   max-width: 80%;
   padding: 5px 3px;
   border-radius: 8px;
 }
+
 .know-christ-btn {
-  background-color: #ffffff;
+  background-color: #fff;
   color: #0a3981;
   padding: 12px 28px;
   font-size: 1.1rem;
@@ -63,19 +65,18 @@ body{
 
 .know-christ-btn:hover {
   background-color: #0a3981;
-  color: #ffffff;
+  color: #fff;
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
 }
 
 @media screen and (min-width: 768px) {
-
   .hero-slide {
-  height: 80vh;
-  object-fit: cover;
-}
-.title{
-  font-size: 2.5rem;
-}
+    height: 80vh;
+    object-fit: cover;
+  }
 
+  .title {
+    font-size: 2.5rem;
+  }
 }

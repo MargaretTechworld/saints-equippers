@@ -8,7 +8,7 @@
 
 .intro-heading {
   font-family: Helvetica, Verdana, Arial, sans-serif;
-  font-size: 1.0rem;
+  font-size: 1rem;
   font-weight: bold;
   text-align: center;
   color: #0a3981;
@@ -75,11 +75,13 @@
   font-weight: 500;
   transition: color 0.3s ease;
 }
-.info-div-p{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+.info-div-p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
 .info-item a:hover {
   color: #062a64;
   text-decoration: underline;
@@ -101,23 +103,28 @@
   .intro-text {
     align-items: flex-start;
   }
-.horizontal {
-  align-items: flex-start;
-  width: 20%;
-}
-.author-signature {
-  text-align: right;
-  align-self: flex-start;
-}
-.info-div-p{
+
+  .horizontal {
+    align-items: flex-start;
+    width: 20%;
+  }
+
+  .author-signature {
+    text-align: right;
+    align-self: flex-start;
+  }
+
+  .info-div-p {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-}
-.info-item a{
+  }
+
+  .info-item a {
     font-size: 1.1rem;
-}
-.intro-heading{
-  font-size: 28px;
-}
+  }
+
+  .intro-heading {
+    font-size: 28px;
+  }
 }

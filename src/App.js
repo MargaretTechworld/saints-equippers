@@ -7,20 +7,25 @@ import Branches from './components/Branches';
 import Contact from './components/Contact';
 import Resources from './components/Resources';
 import Pastors from './components/Pastors';
+import Footer from './components/Footer';
+import './app.css'; // Ensure to import the CSS file
 
 function App() {
   return (
-    <div>
+    <div className="app-container">
       <Navigation />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/sermon" element={<Sermon />} />
-        <Route path="/branches" element={<Branches />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/resources" element={<Resources />} />
-        <Route path="/pastors" element={<Pastors />} />
-      </Routes>
+      <div className="content">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/sermon" element={<Sermon />} />
+          <Route path="/branches" element={<Branches />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/resources" element={<Resources />} />
+          <Route path="/pastors" element={<Pastors />} />
+        </Routes>
+      </div>
+      <Footer />
     </div>
   );
 }

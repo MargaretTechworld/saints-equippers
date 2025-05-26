@@ -49,8 +49,8 @@ body {
 }
 
 .know-christ-btn {
-  background-color: #fff;
-  color: #0a3981;
+  background-color: #0a3981;
+  color: #ffff;
   padding: 12px 28px;
   font-size: 1.1rem;
   border: none;
@@ -64,8 +64,8 @@ body {
 }
 
 .know-christ-btn:hover {
-  background-color: #0a3981;
-  color: #fff;
+  background-color: #ffff;
+  color: #0a3981;
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
 }
@@ -78,5 +78,9 @@ body {
 
   .title {
     font-size: 2.5rem;
+  }
+
+  .description {
+    font-size: 1.8rem;
   }
 }

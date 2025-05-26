@@ -6,15 +6,6 @@
   text-align: center;
 }
 
-.intro-heading {
-  font-family: Helvetica, Verdana, Arial, sans-serif;
-  font-size: 1rem;
-  font-weight: bold;
-  text-align: center;
-  color: #0a3981;
-  margin-bottom: 30px;
-}
-
 .intro-content {
   display: flex;
   flex-direction: column;

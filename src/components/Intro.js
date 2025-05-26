@@ -4,8 +4,6 @@ import '../styles/intro.css';
 
 const Intro = () => (
   <div className="intro-section">
-    <h2 className="intro-heading">Welcome</h2>
-
     <div className="intro-content">
       <div className="intro-image">
         <img src={pastorImg} alt="Pastor" />

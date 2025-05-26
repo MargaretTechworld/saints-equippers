@@ -5,7 +5,7 @@ const Images = [
     id: 1,
     src: hero2,
     title: 'Welcome to the Arena of Change',
-    description: 'experience a change',
+    description: 'Experience a change',
     btn: 'Know Christ',
   },
 
